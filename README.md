@@ -15,7 +15,7 @@ This is a React application that performs CRUD (Create, Read, Update, Delete) op
 ## 🛠️ Technologies Used
 
 - ![React](https://img.icons8.com/color/24/000000/react-native.png) **React**
-- ![Axios](https://user-images.githubusercontent.com/16843090/101181820-f3a63780-3612-11eb-9d3a-05452f2b0ad8.png) **Axios**
+- ![Axios](https://img.icons8.com/color/24/000000/axios.png) **Axios**
 - ![Bootstrap](https://img.icons8.com/color/24/000000/bootstrap.png) **React Bootstrap**
 - ![React Router](https://img.icons8.com/color/24/000000/react-native.png) **React Router**
 - ![JSONPlaceholder](https://img.icons8.com/ios/24/000000/api-settings.png) **JSONPlaceholder** (for mock API)
