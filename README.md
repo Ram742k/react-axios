@@ -71,7 +71,7 @@ The application uses JSONPlaceholder as a mock API for user data:
 
 ## 🌐 Demo
 
-[Live Demo](https://your-demo-link.com)
+[Live Demo](https://react-axios-742k.netlify.app)
 
 
 
