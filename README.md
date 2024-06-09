@@ -10,12 +10,12 @@ This is a React application that performs CRUD (Create, Read, Update, Delete) op
 - ![Add](https://img.icons8.com/fluency/24/000000/add-user-male.png) **Add Users:** Create new user records.
 - ![Edit](https://img.icons8.com/fluency/24/000000/edit-user-male.png) **Edit Users:** Modify existing user details.
 - ![Delete](https://img.icons8.com/fluency/24/000000/remove-user-male.png) **Delete Users:** Remove user records.
-- ![Responsive](https://img.icons8.com/fluency/24/000000/responsive.png) **Responsive Design:** Ensures usability on various devices.
+- ![Responsive](https://img.icons8.com/fluency/24/responsive.png) **Responsive Design:** Ensures usability on various devices.
 
 ## 🛠️ Technologies Used
 
 - ![React](https://img.icons8.com/color/24/000000/react-native.png) **React**
-- ![Axios](https://img.icons8.com/ios/24/000000/axios.png) **Axios**
+- ![Axios](https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-axios-is-a-promised-based-http-client-for-javascript-logo-color-tal-revivo.png) **Axios**
 - ![Bootstrap](https://img.icons8.com/color/24/000000/bootstrap.png) **React Bootstrap**
 - ![React Router](https://img.icons8.com/color/24/000000/react-native.png) **React Router**
 - ![JSONPlaceholder](https://img.icons8.com/ios/24/000000/api-settings.png) **JSONPlaceholder** (for mock API)
@@ -44,6 +44,26 @@ This is a React application that performs CRUD (Create, Read, Update, Delete) op
 2. **Open your browser and navigate to** `http://localhost:3000`.
 
 ## 🗂️ Project Structure
+
+```plaintext
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── AddUser.jsx
+│   │   ├── UserList.jsx
+│   │   ├── UserForm.jsx
+│   │   ├── Loader.jsx
+│   │   ├── Navigation.jsx
+│   ├── api.js
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+└── README.md
+```
+    
+`
 
 
 - `src/`
@@ -90,8 +110,8 @@ const api = axios.create({
 
 export default api;
 
-
-## 👤 Author
+```
+    ## 👤 Author
 
 **Ramkumar**
 
@@ -105,3 +125,6 @@ Thank you for taking the time to explore this project. Have a great day! 😊
 ---
 
 Made with ❤️ by Ramkumar
+`
+
+
