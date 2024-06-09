@@ -15,33 +15,12 @@ This is a React application that performs CRUD (Create, Read, Update, Delete) op
 ## 🛠️ Technologies Used
 
 - ![React](https://img.icons8.com/color/24/000000/react-native.png) **React**
-- ![Axios](https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/external-axios-is-a-promised-based-http-client-for-javascript-logo-color-tal-revivo.png) **Axios**
+- ![Axios](https://user-images.githubusercontent.com/16843090/101181820-f3a63780-3612-11eb-9d3a-05452f2b0ad8.png) **Axios**
 - ![Bootstrap](https://img.icons8.com/color/24/000000/bootstrap.png) **React Bootstrap**
 - ![React Router](https://img.icons8.com/color/24/000000/react-native.png) **React Router**
 - ![JSONPlaceholder](https://img.icons8.com/ios/24/000000/api-settings.png) **JSONPlaceholder** (for mock API)
 
-## ⚙️ Installation
 
-1. **Clone the repository:**
-    ```bash
-    git clone https://github.com/yourusername/user-management-app.git
-    ```
-2. **Navigate to the project directory:**
-    ```bash
-    cd user-management-app
-    ```
-3. **Install the dependencies:**
-    ```bash
-    npm install
-    ```
-
-## 🚀 Usage
-
-1. **Start the development server:**
-    ```bash
-    npm start
-    ```
-2. **Open your browser and navigate to** `http://localhost:3000`.
 
 ## 🗂️ Project Structure
 
@@ -111,7 +90,7 @@ const api = axios.create({
 export default api;
 
 ```
-    ## 👤 Author
+## 👤 Author
 
 **Ramkumar**
 
