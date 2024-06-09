@@ -13,7 +13,7 @@ const AddUser = ({ onUserAdded }) => {
   };
 
   return (
-    <div>
+    <div >
       
       <UserForm onSubmit={addUser} />
     </div>

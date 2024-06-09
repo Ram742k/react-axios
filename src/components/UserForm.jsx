@@ -10,9 +10,11 @@ const UserForm = ({ onSubmit, initialUser }) => {
   }, [initialUser]);
 
   const handleChange = (e) => {
+    
     const { name, value } = e.target;
     setUser({ ...user, [name]: value });
   };
+  
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -21,7 +23,7 @@ const UserForm = ({ onSubmit, initialUser }) => {
   };
 
   return (
-    <div className='user-card'>
+    <div className='d-flex justify-content-center align-items-center vh-80'>
         <div className='card '>
       <h2 className='mb-5'>{initialUser ? 'Edit User' : 'Add User'}</h2>
       <form onSubmit={handleSubmit}>
@@ -40,7 +42,8 @@ const UserForm = ({ onSubmit, initialUser }) => {
         <div className="row mb-4">
           <label className="col-sm-4 form-label">Phone</label>
           <div className='col-sm-8'>
-            <input type="tel" className="form-control" name="phone" onChange={handleChange} value={user.phone} required />
+          <input type="number" className="form-control" name="phone" onChange={handleChange} value={user.phone}  required />
+
           </div>
         </div>
         <button type="submit" className='btn btn-light w-100 mb-3'>Submit</button>

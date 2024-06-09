@@ -41,10 +41,10 @@ const UserList = ({ users, setUsers, isLoading, onUserUpdated }) => {
   }
 
   return (
-    <div>
+    <div className='container'>
       <h1 className='text-center mt-5 text-white'>User List</h1>
       <div className='card card-userlist p-3'>
-        <div className='table-responsive'>
+      <div className='table-responsive'>
           <table className='table table-bordered mt-4'>
             <thead>
               <tr>
